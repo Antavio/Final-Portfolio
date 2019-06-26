@@ -12,9 +12,8 @@ if(empty($_POST['name'])  		||
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
-	
-// create email body and send it	
-$to = 'youremail@gmail.com'; // ----->>> put your email to receive mails
+
+$to = 'njuguna13@gmail.com';
 $email_subject = "Contact form submitted by:  $name";
 $email_body = "You have received a new message. \n\n".
 				  " Here are the details:\n \nName: $name \n ".

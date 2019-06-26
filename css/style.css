@@ -1,12 +1,8 @@
-/*
-Author: http://webthemez.com 
-*/
+
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
-/* Reset
----------------------------------*/
 ul {
     list-style: none;
 }
@@ -44,7 +40,7 @@ a, a:hover, a:active {
 .clearfix:after {
     clear: both;
 } 
-/* Common style */
+
 .grid figure {
 	position: relative;
 	float: left;
@@ -119,10 +115,6 @@ a, a:hover, a:active {
 	font-size: 68.5%;
 }
 
-/*---------------*/
-/***** Oscar *****/
-/*---------------*/
-
 figure.effect-oscar {
 	background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
 	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);
@@ -180,7 +172,7 @@ figure.effect-oscar:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	color:#fff;+++++++
+	color:#fff;
 }
 
 figure.effect-oscar:hover figcaption {
@@ -297,10 +289,6 @@ p {
     display: inline-block;
     margin: 0 5px;
     float: initial;
-}
-
-.navStyle ul li:first-child {
-	/*margin:0px;*/;
 }
 
 .navStyle ul li:last-child {
@@ -460,20 +448,9 @@ a.read_more:hover {
     border: 1px solid #ED5441;
 }
 
-	
-
-
-
-
-
-
-
-/* Services
----------------------------------*/
-
 #service {
     padding: 60px 0px;
-    background: #718A9A;
+    background: #FDB01D;
 }
 #service h2{
   color: #fff;
@@ -481,9 +458,6 @@ a.read_more:hover {
 }
 .service_wrapper {
     padding: 40px 0 40px;
-}
-
-.service_section {
 }
 
 .service_block {
@@ -573,7 +547,6 @@ color:#fff;
 }
 
 .service-list-col1 i {
-    display:;
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -1432,7 +1405,7 @@ border: 1px solid #CE1139;
 }
 
 .portfolio-item .portfolio_img img {
-    width: 100%;
+    width: 500px;
     height: 400px;
 }
 
@@ -2025,5 +1998,5 @@ width: 60px;
 height: auto;
 }
 #send{
-    background-color: #19D839;
+    background-color: #FDB01D;
 }
